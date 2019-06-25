@@ -1,0 +1,32 @@
+plugins {
+    id 'groovy'
+    id 'java'
+    id 'idea'
+    id 'org.springframework.boot' version '2.1.6.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+}
+
+group 'myRetail'
+version '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.json:json:20180813'
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+    //compile('org.springframework.boot:spring-boot-starter-data-cassandra')
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.boot:spring-boot-gradle-plugin'
+    compile 'org.apache.commons:commons-lang3:3.9'
+    compile 'javax.ws.rs:jsr311-api:1.1.1'
+    compile 'com.sun.jersey:jersey-client:1.19.4'
+
+    testCompile "org.codehaus.groovy.modules.http-builder:http-builder:0.7.1"
+    testCompile 'org.assertj:assertj-core:3.12.2'
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+    testCompile 'org.spockframework:spock-core:1.3-groovy-2.5'
+    testCompile 'junit:junit:4.12'
+}
