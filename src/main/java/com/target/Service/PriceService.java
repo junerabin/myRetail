@@ -1,21 +1,23 @@
 package com.target.Service;
 
-import com.target.Dao.PriceDao;
+import com.target.Dao.ProductRepository;
 import com.target.Model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
+
 @Service
 public class PriceService {
-    private PriceDao priceDao;
+    private ProductRepository productRepository;
 
     @Autowired
-    public PriceService(PriceDao priceDao) {
-        this.priceDao = priceDao;
+    public PriceService(ProductRepository productRepository) {
+        this.productRepository = productRepository;
     }
 
-    public void updateProductPrice(Product newProductPrice, int id) {
-        Double newPrice = newProductPrice.getCurrent_price().getValue();
-        priceDao.setPrice(id, newPrice);
+    public void updateProductById(int id,Product updatedProductPrice) throws IOException {
+        Double newPrice = updatedProductPrice.getPrice().getValue();
+        productRepository.setPrice(id, newPrice);
     }
 }

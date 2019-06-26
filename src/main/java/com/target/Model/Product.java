@@ -4,9 +4,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class Product {
+
     private int id;
     private String name;
-    private Price current_price;
+    private Price price;
 
     public int getId() {
         return id;
@@ -24,12 +25,21 @@ public class Product {
         this.name = name;
     }
 
-    public Price getCurrent_price() {
-        return current_price;
+    public Price getPrice() {
+        return price;
     }
 
-    public void setCurrent_price(Price current_price) {
-        this.current_price = current_price;
+    public void setPrice(Price price) {
+        this.price = price;
     }
 
+
+    @Override
+    public String toString() {
+        return "ProductDetails {"
+                + "id=" + id + ","
+                + "name=" + name +","
+                + price +
+                "}";
+    }
 }

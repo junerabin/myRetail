@@ -1,14 +1,13 @@
 package com.target.Controller;
 
+import com.target.Exception.ResourceNotFoundException;
 import com.target.Model.Product;
 import com.target.Service.PriceService;
 import com.target.Service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
 
 @RestController
 @RequestMapping("/")
@@ -24,22 +23,16 @@ public class ProductController {
         this.product = product;
     }
 
-    // GET
-    @RequestMapping(method = RequestMethod.GET, produces = {MediaType.APPLICATION_JSON_VALUE}, value="/product/{id}")
-    public ResponseEntity<Product> getProductById(@PathVariable("id") int id) {
-        productService.getProduct(product, id);
-
-        return new ResponseEntity<>(product, HttpStatus.OK);
+    @RequestMapping(value="product/{id}",method=RequestMethod.GET)
+    public Product getProductById(@PathVariable int id) {
+        Product productDetails = productService.findProductById(id, product);
+        return productDetails;
     }
 
-    // PUT
-    @PutMapping
-    @RequestMapping(method = RequestMethod.PUT, produces = {MediaType.APPLICATION_JSON_VALUE}, value="/product/{id}")
-    ResponseEntity<Product> updateProductById(@PathVariable int id, @RequestBody Product newProductPrice) {
-        priceService.updateProductPrice(newProductPrice, id);
-        productService.getProduct(product, id);
+    @RequestMapping(value="product/{id}",method=RequestMethod.PUT)
+    public Product updateProduct(@PathVariable Integer id, @RequestBody Product updatedProductPrice) throws IOException {
+        priceService.updateProductById(id, updatedProductPrice);
 
-        return new ResponseEntity<>(product, HttpStatus.OK);
+        return productService.findProductById(id,updatedProductPrice);
     }
-
 }
