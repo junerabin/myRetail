@@ -6,7 +6,7 @@ import com.datastax.driver.core.Session;
 class CassandraConnection {
     Session getConnection() {
         String serverIP = "127.0.0.1";
-        String keyspace = "targetdb";
+        String keyspace = "myRetailDb";
 
         Cluster cluster = Cluster.builder()
                 .addContactPoints(serverIP)

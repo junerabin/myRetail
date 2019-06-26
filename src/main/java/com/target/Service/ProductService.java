@@ -37,7 +37,7 @@ public class ProductService {
             String productName = restTemplate.getForObject(url, String.class);
             jsonObject = new JSONObject(productName);
         } catch (RestClientException e) {
-            throw new ResourceNotFoundException();
+            throw new ResourceNotFoundException("Product not found");
         }
         return jsonObject.getJSONObject("product").getJSONObject("item").getJSONObject("product_description").getString("title");
     }
