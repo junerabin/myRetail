@@ -18,23 +18,6 @@ class ProductControllerSpecification extends Specification {
     void cleanup() {
     }
 
-    def 'get_product() with valid id 75519802'() {
-        when:
-        def response = client.get(path: 'product/75519802',
-                requestContentType: ContentType.JSON,
-                headers: ['Content-Type': "application/json"]
-        )
-
-        then:
-        notThrown(Exception)
-        response.status == 200
-        response.contentType == 'application/json'
-        response.data.id == 75519802
-        response.data.name == "Berkley Digger Swimming 2 Hook Hard Fishing Bait Cream Pie 2.5"
-        response.data.price.value == 6.95
-        response.data.price.currency_code == 'USD'
-    }
-
     def 'get_product() with valid id 52696549'() {
         when:
         def response = client.get(path: 'product/52696549',
@@ -88,7 +71,7 @@ class ProductControllerSpecification extends Specification {
         def response = client.put(path: 'product/13860428',
                 requestContentType: ContentType.JSON,
                 headers: ['Content-Type': "application/json"],
-                body: "{id:13860428,name:The Big Lebowski (Blu-ray),price:{value:20.00,currency_code:USD}}"
+                body: "{\"id\":13860428,\"name\":\"The Big Lebowski (Blu-ray)\",\"price\":{\"value\":20.00,\"currency_code\":\"USD\"}}"
         )
 
         then:
@@ -103,7 +86,7 @@ class ProductControllerSpecification extends Specification {
         def response = client.put(path: 'product/13860428',
                 requestContentType: ContentType.JSON,
                 headers: ['Content-Type': "application/json"],
-                body: "{id:13860428,name:The Big Lebowski (Blu-ray),price:{value:19.98,currency_code:USD}}"
+                body: "{\"id\":13860428,\"name\":\"The Big Lebowski (Blu-ray)\",\"price\":{\"value\":19.98,\"currency_code\":\"USD\"}}"
         )
 
         then:
