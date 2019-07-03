@@ -21,8 +21,6 @@ public class ProductRepository {
     }
     private CassandraConnection conn = new CassandraConnection();
 
-    /* Pull price and currency code from Cassandra keyspace
-     * */
     public Price getPrice(int id) {
         price = new Price();
         Session session = conn.getConnection();

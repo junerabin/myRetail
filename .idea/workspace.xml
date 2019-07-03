@@ -10,19 +10,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/target/Dao/CassandraConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/target/Dao/CassandraConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/target/Dao/CassandraConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/target/Dao/CassandraConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/target/Exception/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/target/Exception/ResourceNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/target/Controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/target/Controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/target/Dao/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/target/Dao/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/target/Exception/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/target/Exception/ResourceNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/target/Service/PriceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/target/Service/PriceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/target/Service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/target/Service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/target/Controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/target/Controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/target/Dao/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/target/Dao/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/target/Service/PriceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/target/Service/PriceService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/target/Service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/target/Service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/target/Controller/ProductControllerSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/target/Controller/ProductControllerSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/target/Service/ProductServiceSpecification$_testGetMyRetailJSON_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/target/Service/ProductServiceSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/target/Service/ProductServiceSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/target/Dao/CassandraConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/target/Dao/CassandraConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/target/Exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/target/Exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/target/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/target/Controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/target/Dao/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/target/Dao/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/target/Service/PriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/target/Service/PriceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/target/Service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/target/Service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/target/Controller/ProductControllerSpecification.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/target/Controller/ProductControllerSpecification.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/target/Service/ProductServiceSpecification.groovy" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -65,11 +69,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/target/Controller/ProductControllerSpecification.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="36" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="36" />
+              <folding>
+                <element signature="e#31#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="142" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/target/Service/ProductServiceUnitTest.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="e#28#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Service/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="205">
+              <caret line="48" column="34" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,15 +115,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Controller/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Service/PriceService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="63" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="63" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,17 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Model/Price.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-177">
+            <state relative-caret-position="-182">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/cassandra.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -125,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Dao/ProductRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="59" />
+            <state relative-caret-position="211">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,27 +204,30 @@
         <option value="$PROJECT_DIR$/src/main/java/com/target/Dao/RedSkyRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/target/Model/Price.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/target/MyRetailMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/target/Dao/ProductRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/target/Model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/resources/cassandra.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/target/Service/PriceService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/target/Controller/ProductController.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/target/Dao/CassandraConnection.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/target/Controller/ProductControllerSpecification.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/com/target/Service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/target/Exception/ResourceNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/target/Service/ProductServiceSpecification.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/target/Service/PriceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/target/Dao/ProductRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/target/Service/FooServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/target/Service/ServiceControllerSpecification.groovy" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/target/Service/ReportServiceTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/target/Controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/target/Service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/target/Service/ProductServiceUnitTest.groovy" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="117" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="69" />
     <option name="width" value="1680" />
-    <option name="height" value="971" />
+    <option name="height" value="932" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,8 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +267,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myRetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myRetail" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myRetail" type="b2602c69:ProjectViewProjectNode" />
@@ -291,7 +339,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myRetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myRetail" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myRetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myRetail" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myRetail" type="b2602c69:ProjectViewProjectNode" />
@@ -304,6 +370,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,7 +386,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561579673110" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562051622587" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -349,7 +417,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Controller in com.target.myRetail.test">
+  <component name="RunManager" selected="JUnit.All in com.target.myRetail.test">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -358,15 +426,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in com.target.myRetail.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.target.myRetail.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -380,16 +439,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Controller in com.target.myRetail.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.target.myRetail.test" />
-      <option name="TEST_OBJECT" value="directory" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <dir value="$PROJECT_DIR$/src/test/groovy/com/target/Controller" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductServiceSpecification.testGetMyRetailJSON" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductServiceUnitTest.testGetMyRetailJSON" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.target.myRetail.test" />
       <extension name="coverage">
         <pattern>
@@ -398,7 +448,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.target.Service" />
-      <option name="MAIN_CLASS_NAME" value="com.target.Service.ProductServiceSpecification" />
+      <option name="MAIN_CLASS_NAME" value="com.target.Service.ProductServiceUnitTest" />
       <option name="METHOD_NAME" value="testGetMyRetailJSON" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -406,7 +456,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductServiceSpecification.testGetProductName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductServiceUnitTest.testProductName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.target.myRetail.test" />
       <extension name="coverage">
         <pattern>
@@ -415,8 +465,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.target.Service" />
-      <option name="MAIN_CLASS_NAME" value="com.target.Service.ProductServiceSpecification" />
-      <option name="METHOD_NAME" value="testGetProductName" />
+      <option name="MAIN_CLASS_NAME" value="com.target.Service.ProductServiceUnitTest" />
+      <option name="METHOD_NAME" value="testProductName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceUnitTest.testSetTit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.target.myRetail.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.target.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.target.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.target.Service.ProductServiceUnitTest" />
+      <option name="METHOD_NAME" value="testSetTit" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceUnitTest.testSetTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.target.myRetail.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.target.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.target.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.target.Service.ProductServiceUnitTest" />
+      <option name="METHOD_NAME" value="testSetTitle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -457,11 +541,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Controller in com.target.myRetail.test" />
-        <item itemvalue="JUnit.All in com.target.myRetail.test (1)" />
         <item itemvalue="JUnit.All in com.target.myRetail.test" />
-        <item itemvalue="JUnit.ProductServiceSpecification.testGetProductName" />
-        <item itemvalue="JUnit.ProductServiceSpecification.testGetMyRetailJSON" />
+        <item itemvalue="JUnit.ProductServiceUnitTest.testSetTit" />
+        <item itemvalue="JUnit.ProductServiceUnitTest.testGetMyRetailJSON" />
+        <item itemvalue="JUnit.ProductServiceUnitTest.testProductName" />
+        <item itemvalue="JUnit.ProductServiceUnitTest.testSetTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -476,49 +560,51 @@
       <option name="presentableId" value="Default" />
       <updated>1561428481009</updated>
       <workItem from="1561428484897" duration="44984000" />
-      <workItem from="1561563242763" duration="6888000" />
+      <workItem from="1561563242763" duration="6933000" />
+      <workItem from="1562041002771" duration="10198000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductControllerSpecification_set_product - 2019.06.26 at 14h 28m 42s.xml">
-      <configuration name="ProductControllerSpecification.set_product" configurationId="JUnit" />
+    <history-entry file="ProductServiceUnitTest_testSetTitle - 2019.07.02 at 01h 55m 30s.xml">
+      <configuration name="ProductServiceUnitTest.testSetTitle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_target_myRetail_test_(2) - 2019.06.26 at 14h 29m 06s.xml">
-      <configuration name="All in com.target.myRetail.test (2)" configurationId="JUnit" />
+    <history-entry file="ProductServiceUnitTest_testSetTitle - 2019.07.02 at 01h 56m 42s.xml">
+      <configuration name="ProductServiceUnitTest.testSetTitle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductControllerSpecification_set_product_back_to_$19_98 - 2019.06.26 at 14h 29m 27s.xml">
-      <configuration name="ProductControllerSpecification.set_product back to $19.98" configurationId="JUnit" />
+    <history-entry file="ProductServiceUnitTest_testGetMyRetailJSON - 2019.07.02 at 01h 58m 09s.xml">
+      <configuration name="ProductServiceUnitTest.testGetMyRetailJSON" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_target_myRetail_test_(3) - 2019.06.26 at 14h 29m 31s.xml">
-      <configuration name="All in com.target.myRetail.test (3)" configurationId="JUnit" />
+    <history-entry file="ProductServiceUnitTest_testProductName - 2019.07.02 at 02h 02m 53s.xml">
+      <configuration name="ProductServiceUnitTest.testProductName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductServiceSpecification - 2019.06.26 at 14h 36m 13s.xml">
-      <configuration name="ProductServiceSpecification" configurationId="JUnit" />
+    <history-entry file="ProductServiceUnitTest_testSetTit - 2019.07.02 at 02h 06m 57s.xml">
+      <configuration name="ProductServiceUnitTest.testSetTit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductServiceSpecification - 2019.06.26 at 14h 42m 11s.xml">
-      <configuration name="ProductServiceSpecification" configurationId="JUnit" />
+    <history-entry file="ProductServiceUnitTest_testGetMyRetailJSON - 2019.07.02 at 02h 09m 32s.xml">
+      <configuration name="ProductServiceUnitTest.testGetMyRetailJSON" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductServiceSpecification_testGetMyRetailJSON - 2019.06.26 at 14h 43m 36s.xml">
-      <configuration name="ProductServiceSpecification.testGetMyRetailJSON" configurationId="JUnit" />
+    <history-entry file="ProductServiceUnitTest_testGetMyRetailJSON - 2019.07.02 at 02h 10m 03s.xml">
+      <configuration name="ProductServiceUnitTest.testGetMyRetailJSON" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductServiceSpecification_testGetProductName - 2019.06.26 at 14h 49m 40s.xml">
-      <configuration name="ProductServiceSpecification.testGetProductName" configurationId="JUnit" />
+    <history-entry file="ProductServiceUnitTest_testGetMyRetailJSON - 2019.07.02 at 02h 10m 21s.xml">
+      <configuration name="ProductServiceUnitTest.testGetMyRetailJSON" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_target_myRetail_test - 2019.06.26 at 15h 03m 58s.xml">
-      <configuration name="All in com.target.myRetail.test" configurationId="JUnit" />
+    <history-entry file="ProductServiceUnitTest_testGetMyRetailJSON - 2019.07.02 at 02h 11m 04s.xml">
+      <configuration name="ProductServiceUnitTest.testGetMyRetailJSON" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_target_myRetail_test_(1) - 2019.06.26 at 15h 04m 39s.xml">
-      <configuration name="All in com.target.myRetail.test (1)" configurationId="JUnit" />
+    <history-entry file="ProductServiceUnitTest_testGetMyRetailJSON - 2019.07.02 at 02h 13m 07s.xml">
+      <configuration name="ProductServiceUnitTest.testGetMyRetailJSON" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51872000" />
+    <option name="totallyTimeSpent" value="62115000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="117" y="23" width="1680" height="971" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="981" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49825785" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825785" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -528,17 +614,17 @@
       <window_info id="Web" order="7" sideWeight="0.5017422" side_tool="true" weight="0.24969475" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943925" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3287827" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32845894" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32943925" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32845894" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32943925" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3287827" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32845894" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32943925" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32845894" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32943925" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -649,30 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Service/PriceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy.modules.http-builder/http-builder/0.7.1/a7396f0103337835621526d95021afc06c65c7b2/http-builder-0.7.1-sources.jar!/groovyx/net/http/RESTClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,54 +762,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cassandra.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/target/Service/ProductServiceSpecification.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Service/PriceService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Dao/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="59" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="63" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.13/f0fd589db74e4ee31cfedb4bc0231a141ee50ae3/groovy-all-2.4.13-sources.jar!/groovy/util/GroovyTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="219" column="21" selection-start-line="219" selection-start-column="21" selection-end-line="219" selection-end-column="21" />
-          <folding>
-            <element signature="e#7053#7054#0" expanded="true" />
-            <element signature="e#7125#7126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Model/Price.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/target/Controller/ProductControllerSpecification.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="e#31#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -769,25 +794,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/target/Service/ProductServiceSpecification.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Model/Price.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="-182">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cassandra.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Dao/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#28#81#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/target/Service/FooServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/target/Service/ServiceControllerSpecification.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+          <folding>
+            <element signature="e#28#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.4/c6fcccd240bf9a32bb6f16917a70a416b0d249a8/junit-4.4-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="115" column="23" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="23" />
+          <folding>
+            <element signature="e#3682#3683#0" expanded="true" />
+            <element signature="e#3725#3726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/target/Controller/ProductControllerSpecification.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="e#31#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.7.RELEASE/8f92e4f93393dda9c11d4839a10c4aa66941870e/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="327" column="17" selection-start-line="327" selection-start-column="17" selection-end-line="327" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/target/Service/ReportServiceTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.13/f0fd589db74e4ee31cfedb4bc0231a141ee50ae3/groovy-all-2.4.13-sources.jar!/groovy/util/GroovyTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+          <folding>
+            <element signature="e#7125#7126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="142" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/target/Service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="205">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/target/Service/ProductServiceUnitTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#28#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
